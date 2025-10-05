@@ -31,6 +31,7 @@ class AuthController extends Controller
 
                 return response()->json(
                     [
+                        "token_type" => 'Bearer',
                         "token" => $token->plainTextToken,
                         "message" => "Successfully registered",
                     ],
