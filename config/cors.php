@@ -18,7 +18,11 @@ return [
 
     "allowed_methods" => ["*"],
 
-    "allowed_origins" => [env("CORS_DOMAIN")],
+    "allowed_origins" => [
+        "https://weslleyrichard.dev",
+        "https://hub.weslleyrichard.dev",
+        "https://api.weslleyrichard.dev",
+    ],
 
     "allowed_origins_patterns" => [],
 
